@@ -16,7 +16,7 @@
     header {
       background-color: #003366;
       color: #ffffff;
-      padding: 40px 20px;
+      padding: 45px 20px;
       text-align: center;
       position: relative;
       border-bottom: 5px solid #ed1c24;
@@ -24,52 +24,64 @@
     header h1 {
       color: #ffffff !important;
       margin: 0;
-      font-size: 1.8em;
+      font-size: 1.6em;
       text-transform: uppercase;
+      padding-top: 10px;
     }
     .insigna-oms {
       position: absolute;
-      top: 15px;
+      top: 10px;
       right: 20px;
-      height: 60px;
       background-color: white;
-      padding: 5px;
-      border-radius: 4px;
-      display: block;
+      padding: 8px 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      text-align: center;
+      line-height: 1;
     }
     main {
-      padding: 30px 20px;
+      padding: 20px;
       max-width: 850px;
       margin: auto;
     }
     h2 {
       color: #003366;
       border-left: 5px solid #ed1c24;
-      padding-left: 10px;
-      margin-top: 30px;
+      padding-left: 12px;
+      margin-top: 25px;
+      font-size: 1.3em;
     }
     ul {
       list-style-type: none;
-      padding-left: 10px;
+      padding-left: 5px;
+    }
+    ul li {
+      margin-bottom: 8px;
+      padding-left: 20px;
+      position: relative;
     }
     ul li::before {
       content: "■";
       color: #ed1c24;
-      margin-right: 10px;
+      position: absolute;
+      left: 0;
+      font-size: 12px;
+      top: 2px;
     }
     .highlight-box {
-      background-color: #f9f9f9;
-      border: 1px dashed #003366;
+      background-color: #f4f7f9;
+      border: 2px solid #003366;
       padding: 20px;
       margin-top: 30px;
-      border-radius: 8px;
+      border-radius: 10px;
     }
     footer {
       background-color: #003366;
       color: #ffffff;
       text-align: center;
-      padding: 15px;
+      padding: 20px;
       margin-top: 50px;
+      font-weight: bold;
     }
   </style>
 </head>
@@ -77,8 +89,8 @@
 
   <header>
     <div class="insigna-oms">
-        <strong style="color:#003366; font-family: sans-serif; font-size: 20px;">OMS</strong><br>
-        <small style="color:#ed1c24; font-size: 10px; font-weight: bold;">RETAIL GmbH</small>
+        <span style="color:#003366; font-family: Arial, sans-serif; font-size: 22px; font-weight: 900; letter-spacing: -1px;">OMS</span><br>
+        <span style="color:#ed1c24; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">Retail GmbH</span>
     </div>
     <h1>Regulament de ordine interioară</h1>
   </header>
@@ -89,7 +101,9 @@
       <ul>
         <li>Fumatul în interior este strict interzis.</li>
         <li>Nu se demontează alarmele de incendiu.</li>
+        <li>Nu se fumează la fereastră.</li>
         <li>Fumatul este permis doar în spațiile special amenajate.</li>
+        <li>Dacă sunt alertate echipajele de pompieri din vina angajatului, acesta suportă toate costurile.</li>
       </ul>
     </section>
 
@@ -98,33 +112,76 @@
       <ul>
         <li>Furtul este strict interzis.</li>
         <li>Nu se iau sau împrumută obiecte din cameră.</li>
+        <li>Este interzisă servirea produselor de la recepție (mic dejun/băuturi) dacă nu au fost plătite.</li>
       </ul>
     </section>
 
     <section>
       <h2>3. Daune în unitatea de cazare</h2>
       <ul>
-        <li>Inspectați unitatea la sosire și raportați eventualele daune.</li>
-        <li>Raportați imediat daunele apărute în timpul sejurului.</li>
+        <li>Inspectați unitatea la sosire și raportați eventualele daune imediat.</li>
+        <li>Raportați orice defecțiune apărută în timpul sejurului (mobilier, instalații).</li>
       </ul>
     </section>
 
     <section>
-        <h2>4. Costuri suplimentare</h2>
-        <ul>
-          <li>Orice daună cauzată de angajat va fi remediată pe cheltuiala acestuia.</li>
-        </ul>
-      </section>
+      <h2>4. Costuri suplimentare</h2>
+      <ul>
+        <li>Orice deteriorare cauzată din vina angajatului va fi achitată de către acesta.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. Gătitul în locuință</h2>
+      <ul>
+        <li>Verificați dacă unitatea permite gătitul.</li>
+        <li>Nu folosiți cuptorul cu microunde pentru produse de patiserie.</li>
+        <li>Evitați prăjirea în baie de ulei și curățați zona după utilizare.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>6. Orele de liniște</h2>
+      <ul>
+        <li>Respectați liniștea între: 22:00 – 06:00 și 12:00 – 14:00.</li>
+        <li>Evitați zgomotul la sosirile nocturne.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>7. Încălzirea și ventilația</h2>
+      <ul>
+        <li>Opriți căldura când ferestrele sunt deschise sau când plecați.</li>
+        <li>Ventilați camerele zilnic pentru a evita igrasia.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>8. Spălătoria</h2>
+      <ul>
+        <li>Utilizarea mașinii de spălat se face conform regulilor locației (uneori contra cost).</li>
+        <li>Uscați rufele doar în spațiile special destinate.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>9. Spațiul public</h2>
+      <ul>
+        <li>Nu organizați petreceri în zonele comune ale unității de cazare.</li>
+        <li>Păstrați curățenia în toate spațiile tranzitate.</li>
+      </ul>
+    </section>
 
     <div class="highlight-box">
       <h2>10. Gunoiul și pozele obligatorii</h2>
-      <p><strong>♻️ Reciclare:</strong> Gunoiul se separă strict.</p>
-      <p><strong>📸 Procedură foto:</strong> Faceți 2-3 poze la **sosire** și 2-3 poze la **plecare**. Trimiteți-le șefului de echipă în privat.</p>
+      <p><strong>♻️ Gunoiul:</strong> Se separă obligatoriu (Hârtie, Plastic, Sticlă, Menajer).</p>
+      <p><strong>📸 Procedură FOTO:</strong> Este <strong>obligatoriu</strong> să faceți poze la sosire și la plecare. Trimiteți-le privat șefului de echipă.</p>
+      <p style="color: #ed1c24; font-weight: bold;">Fără aceste poze, nu putem anula eventualele costuri de reparații impuse de hotel, iar acestea vor fi plătite de voi personal!</p>
     </div>
   </main>
 
   <footer>
-    &copy; 2026 OMS Retail GmbH | Toate drepturile rezervate
+    &copy; 2026 OMS Retail GmbH | Document Intern
   </footer>
 
 </body>
