@@ -19,24 +19,23 @@
       padding: 40px 20px;
       text-align: center;
       position: relative;
-      border-bottom: 5px solid #ed1c24; /* Adăugat o dungă roșie specifică brandului lor */
+      border-bottom: 5px solid #ed1c24;
     }
     header h1 {
       color: #ffffff !important;
       margin: 0;
       font-size: 1.8em;
       text-transform: uppercase;
-      letter-spacing: 1px;
     }
-    /* Setări pentru Insigna/Logo OMS Retail */
     .insigna-oms {
       position: absolute;
       top: 15px;
       right: 20px;
-      height: 60px; /* Dimensiune optimă pentru vizibilitate */
-      background-color: white; /* Fundal alb pentru a scoate logo-ul în evidență pe albastru */
+      height: 60px;
+      background-color: white;
       padding: 5px;
       border-radius: 4px;
+      display: block;
     }
     main {
       padding: 30px 20px;
@@ -53,18 +52,10 @@
       list-style-type: none;
       padding-left: 10px;
     }
-    ul li {
-      margin-bottom: 10px;
-      padding-left: 20px;
-      position: relative;
-    }
     ul li::before {
       content: "■";
       color: #ed1c24;
-      position: absolute;
-      left: 0;
-      font-size: 12px;
-      top: 5px;
+      margin-right: 10px;
     }
     .highlight-box {
       background-color: #f9f9f9;
@@ -79,14 +70,16 @@
       text-align: center;
       padding: 15px;
       margin-top: 50px;
-      font-weight: bold;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <img src="https://oms-retail.de/wp-content/uploads/2021/04/OMS_Retail_GmbH_Logo.png" alt="OMS Retail Logo" class="insigna-oms">
+    <div class="insigna-oms">
+        <strong style="color:#003366; font-family: sans-serif; font-size: 20px;">OMS</strong><br>
+        <small style="color:#ed1c24; font-size: 10px; font-weight: bold;">RETAIL GmbH</small>
+    </div>
     <h1>Regulament de ordine interioară</h1>
   </header>
 
@@ -96,9 +89,7 @@
       <ul>
         <li>Fumatul în interior este strict interzis.</li>
         <li>Nu se demontează alarmele de incendiu.</li>
-        <li>Nu se fumează la fereastră.</li>
-        <li>Fumatul este permis doar în spațiile special amenajate.</li>  
-        <li>Dacă în urma nerespectării acestor indicații sunt alertate echipajele de pompieri, costurile aferente vor fi suportate de către angajat.</li>
+        <li>Fumatul este permis doar în spațiile special amenajate.</li>
       </ul>
     </section>
 
@@ -107,7 +98,6 @@
       <ul>
         <li>Furtul este strict interzis.</li>
         <li>Nu se iau sau împrumută obiecte din cameră.</li>
-        <li>Cazările sunt rezervate fără mic dejun; servirea alimentelor de la recepție este strict interzisă.</li>
       </ul>
     </section>
 
@@ -115,55 +105,21 @@
       <h2>3. Daune în unitatea de cazare</h2>
       <ul>
         <li>Inspectați unitatea la sosire și raportați eventualele daune.</li>
-        <li>Raportați imediat daunele apărute în timpul sejurului (mobilier, instalații, pete).</li>
+        <li>Raportați imediat daunele apărute în timpul sejurului.</li>
       </ul>
     </section>
 
     <section>
-      <h2>4. Costuri suplimentare</h2>
-      <ul>
-        <li>Deteriorarea unității din vina angajatului atrage suportarea cheltuielilor de remediere de către acesta.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>5. Gătitul în locuință</h2>
-      <ul>
-        <li>Informați-vă dacă unitatea are bucătărie înainte de a găti.</li>
-        <li>Nu folosiți cuptorul cu microunde pentru produse de patiserie.</li>
-        <li>Evitați prăjirea alimentelor în baie de ulei și curățați ustensilele.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>6. Orele de liniște</h2>
-      <ul>
-        <li>Intervale obligatorii: 22:00 – 06:00 și 12:00 – 14:00.</li>
-        <li>Respectați liniștea colegilor și a vecinilor.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>7. Încălzirea și ventilația</h2>
-      <ul>
-        <li>Reduceți căldura la plecare și opriți-o când ferestrele sunt deschise.</li>
-        <li>Ventilați zilnic și opriți aparatele electrice la ieșirea din cameră.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>8. Spălătoria</h2>
-      <ul>
-        <li>Mașinile de spălat pot fi folosite pe cheltuiala proprie unde este cazul.</li>
-        <li>Uscați rufele doar în spații destinate sau în aer liber.</li>
-      </ul>
-    </section>
+        <h2>4. Costuri suplimentare</h2>
+        <ul>
+          <li>Orice daună cauzată de angajat va fi remediată pe cheltuiala acestuia.</li>
+        </ul>
+      </section>
 
     <div class="highlight-box">
       <h2>10. Gunoiul și pozele obligatorii</h2>
-      <p><strong>♻️ Reciclare:</strong> Gunoiul se separă strict (hârtie, plastic, sticlă, menajer).</p>
+      <p><strong>♻️ Reciclare:</strong> Gunoiul se separă strict.</p>
       <p><strong>📸 Procedură foto:</strong> Faceți 2-3 poze la **sosire** și 2-3 poze la **plecare**. Trimiteți-le șefului de echipă în privat.</p>
-      <p><em>Lipsa fotografiilor duce la imposibilitatea contestării daunelor, iar costurile vor fi reținute direct de la dumneavoastră.</em></p>
     </div>
   </main>
 
